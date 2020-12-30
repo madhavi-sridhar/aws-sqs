@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+cloud:
+  aws:
+    region:
+      static: eu-west-2
+      auto: false
+    credentials:
+      access-key: access-key
+      secret-key: secret-key
+    end-point:
+      uri: aws-sqs-url
+client:
+  end-point:
+    url: http://localhost:8082
